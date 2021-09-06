@@ -46,6 +46,10 @@ _________________________
 
 > docker-compose down
 
+Заполнить базу
+
+> docker-compose exec web python manage.py dumpdata > fixtures.json
+
 __________________________
 ### Стек технологий
 __________________________
