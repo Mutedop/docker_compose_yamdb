@@ -50,6 +50,8 @@ _________________________
 
 > docker-compose exec web python manage.py dumpdata > fixtures.json
 
+```http://127.0.0.1/admin/```
+
 __________________________
 ### Стек технологий
 __________________________
