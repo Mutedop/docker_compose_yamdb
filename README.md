@@ -33,8 +33,11 @@ _________________________
 
 что позволит развернуть контейнер в фоновом режиме
 
-По окончании работы docker-compose сообщит, что контейнеры собраны и запущены\
-Дополним контейнер 
+По окончании работы docker-compose сообщит, что контейнеры собраны и запущены
+
+#### Дополним контейнер
+
+> docker-compose exec web python manage.py makemigrations --noinput\
 > docker-compose exec web python manage.py migrate --noinput\
 > docker-compose exec web python manage.py createsuperuser\
 > docker-compose exec web python manage.py collectstatic --no-input
